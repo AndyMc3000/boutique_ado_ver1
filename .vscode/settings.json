@@ -22,5 +22,7 @@
    },
    "files.autoSave": "off",
    "workbench.colorTheme": "Visual Studio Light",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "emmet.showSuggestionsAsSnippets": true,
+   "emmet.triggerExpansionOnTab": true
 }
