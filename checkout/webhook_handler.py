@@ -31,7 +31,7 @@ class StripeWH_Handler:
             body,
             settings.DEFAULT_FROM_EMAIL,
             [cust_email]
-        )      
+        )        
 
     def handle_event(self, event):
         """
@@ -155,3 +155,4 @@ class StripeWH_Handler:
         return HttpResponse(
             content=f'Webhook received: {event["type"]}',
             status=200)
+            
